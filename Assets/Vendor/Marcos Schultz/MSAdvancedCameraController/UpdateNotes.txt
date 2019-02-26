@@ -1,0 +1,76 @@
+...............[Version 1.0.0]...............
+- New Asset
+.............................................
+
+
+
+...............[Version 2.1.0]...............
+- New 3D models
+- Performance improvements
+- Change in classes. Now the camera settings are separate, each in its class, making editing the properties easier.
+- New camera modes and new configuration settings.
+.............................................
+
+
+
+...............[Version 2.2.0]...............
+- Now you can select whether you want to rotate the camera all the time or if you want to rotate it only when you click any specific key.
+.............................................
+
+
+
+...............[Version 2.3.0]...............
+- It is now possible to decide whether the cameras will bypass the colliders or detect them through Raycast.
+- Now you can adjust the maximum and minimum angles for the 'orbital' and 'orbitalThatsFollows' camera.
+.............................................
+
+
+
+...............[Version 2.4.0]...............
+- Now it is possible to zoom in the cameras 'FirstPerson' and 'ETS_Style Camera'
+.............................................
+
+
+
+...............[Version 2.5.0]...............
+- It is now possible to set whether the camera control 'OrbitalThatFollows' will be restarted via a timer or via an input.
+.............................................
+
+
+
+...............[Version 2.6.0]...............
+- Bug fixed in the orbital camera. Now it starts at the correct place where it was set by the player.
+.............................................
+
+
+
+...............[Version 2.7.0]...............
+- A new camera style has been added 'FlyCamera'.
+- Some bugs have been fixed in relation to the exchange of cameras.
+- All images in the asset were converted to .PNG format.
+- All images containing the engine logo were removed from the asset at the request of the Unity Asset Store team.
+.............................................
+
+
+
+...............[Version 2.7.5]...............
+- Some bugs have been fixed regarding the filiation of the cameras.
+- It is now possible to set a target for the cameras to follow, making it possible to link the controller code to any object in the game.
+- Improvements were made in relation to the 'transform.parent' of the cameras. Now all the objects generated during the game to control the cameras are organized into a single parent object, to make the hierarchy cleaner.
+- The documentation has been updated.
+.............................................
+
+
+
+...............[Version 2.7.7]...............
+- Bugs corrected in relation to the initial rotation of the orbital camera.
+- Now it is possible to select in which function the camera movement will be processed (Update, FixedUpdate, LateUpdate).
+.............................................
+
+
+
+...............[Version 2.7.9]...............
+- Several errors were corrected in relation to the 'orbital' and 'orbitalThatFollows' cameras.
+- The code has been improved to achieve a performance gain.
+- Redundant pieces of code have been removed.
+.............................................
